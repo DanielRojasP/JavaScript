@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Fundamentos</h1>
+
+    <script>
+        //variables let, var, const y objetos.
+        let a;
+        const PI = 3.1416;
+        console.log(PI);
+        
+        a = 'ABC';
+        console.log(a);
+        
+        // aunque este objeto sea const se puede modificar su composición ya que, 
+        // solo las variables primitivas "number, string, etc" no cambian cuando son const.
+        const objeto = {
+            nombre: 'Jon',
+            edad : 35
+        }
+        let colores = ["Blanco", "Azul"];
+
+        objeto.correo = 'email.com';
+        colores.push('Rojo');
+
+        console.log(objeto);
+        console.log(colores);
+
+        
+    </script>
+</body>
+</html>

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        //Cadenas de texto
+
+        let nombre = 'Daniel';
+        let apellido = 'Rojas';
+
+        let saludo0 = new String('  Hola Mundo'); //muy formal, casi no se utiliza.
+
+        console.log(nombre.toUpperCase());
+        console.log(saludo0.trim()); // elimina los espacios en blanco del principio y final del texto
+
+        //Concatenación
+        let saludo1 = 'Hola mi nombre es ' + nombre ;
+        console.log(saludo1);
+
+        let saludo2 = `Hola mi nombre es ${nombre} ${apellido}`; //otra manera más sencilla de concatenar strings
+
+        console.log(saludo2);
+        
+        let ul = `<ul>
+        <li>Invierno</li>
+        <li>Primavera</li>
+        <li>Otoño</li>
+        <li>Verano</li>
+    </ul>`; //se puede crear html desde js 
+
+    </script>
+</body>
+</html>
